@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Always show horizontal scrollbar */
+/* Force horizontal scrollbar always visible */
+.scrollbar-force-visible {
+  overflow-x: scroll !important;
+  scrollbar-width: thin;
+  scrollbar-color: white #475569; /* thumb, track */
+}
+
+.scrollbar-force-visible::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scrollbar-force-visible::-webkit-scrollbar-track {
+  background: #475569; /* Tailwind slate-600 */
+}
+
+.scrollbar-force-visible::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 6px;
+}
+
