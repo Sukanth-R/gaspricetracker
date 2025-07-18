@@ -3,7 +3,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-<<<<<<< HEAD
   plugins: [
   require('tailwind-scrollbar'),
 ],
@@ -12,7 +11,5 @@ variants: {
 },
 
 
-=======
   plugins: [],
->>>>>>> f765b816dbd9041edac0c834a35b0a441dfa88d4
 }

@@ -17,29 +17,24 @@ function App() {
           <p className="text-slate-400">Real-time gas prices with wallet simulation</p>
         </header>
 
-<<<<<<< HEAD
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-2">
-          <div className="lg:col-span-2">
-            <h1 className="font-bold text-2xl mb-6">Ethereum Gas Price</h1>
-=======
+        {/* Ethereum Gas Price Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div className="lg:col-span-2">
->>>>>>> f765b816dbd9041edac0c834a35b0a441dfa88d4
+            <h1 className="font-bold text-2xl mb-2">Ethereum Gas Price</h1>
             <GasPriceChart chain="ethereum" />
-            
           </div>
         </div>
 
-<<<<<<< HEAD
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-2 mb-4">
-          <h1 className="font-bold text-2xl mt-4 mb-2">Polygan Gas Price</h1>
-          <GasPriceChart chain="polygon" />
-          <h1 className="font-bold text-2xl mt-4 mb-2">Arbitrum Gas Price</h1>
-=======
+        {/* Polygon and Arbitrum + Transaction Simulator */}
         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
-          <GasPriceChart chain="polygon" />
->>>>>>> f765b816dbd9041edac0c834a35b0a441dfa88d4
-          <GasPriceChart chain="arbitrum" />
+          <div>
+            <h1 className="font-bold text-2xl mt-4 mb-2">Polygon Gas Price</h1>
+            <GasPriceChart chain="polygon" />
+          </div>
+          <div>
+            <h1 className="font-bold text-2xl mt-4 mb-2">Arbitrum Gas Price</h1>
+            <GasPriceChart chain="arbitrum" />
+          </div>
           <div>
             <TransactionSimulator />
           </div>

@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
-/* Always show horizontal scrollbar */
-/* Force horizontal scrollbar always visible */
+
 .scrollbar-force-visible {
   overflow-x: scroll !important;
   scrollbar-width: thin;
@@ -23,5 +21,3 @@
   border-radius: 6px;
 }
 
-=======
->>>>>>> f765b816dbd9041edac0c834a35b0a441dfa88d4
