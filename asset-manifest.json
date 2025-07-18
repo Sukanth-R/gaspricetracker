@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gaspricetracker/static/css/main.5de9ee68.css",
-    "main.js": "/gaspricetracker/static/js/main.883b1c47.js",
+    "main.css": "/gaspricetracker/static/css/main.b9dff4be.css",
+    "main.js": "/gaspricetracker/static/js/main.05be037f.js",
     "static/js/453.d4516d9b.chunk.js": "/gaspricetracker/static/js/453.d4516d9b.chunk.js",
     "index.html": "/gaspricetracker/index.html",
-    "main.5de9ee68.css.map": "/gaspricetracker/static/css/main.5de9ee68.css.map",
-    "main.883b1c47.js.map": "/gaspricetracker/static/js/main.883b1c47.js.map",
+    "main.b9dff4be.css.map": "/gaspricetracker/static/css/main.b9dff4be.css.map",
+    "main.05be037f.js.map": "/gaspricetracker/static/js/main.05be037f.js.map",
     "453.d4516d9b.chunk.js.map": "/gaspricetracker/static/js/453.d4516d9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5de9ee68.css",
-    "static/js/main.883b1c47.js"
+    "static/css/main.b9dff4be.css",
+    "static/js/main.05be037f.js"
   ]
 }
